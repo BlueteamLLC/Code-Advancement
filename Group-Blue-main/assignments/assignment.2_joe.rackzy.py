@@ -74,7 +74,7 @@ price_text = "2.75"
 quantity_text_9 = "4"
 discount_percent = 10 
 is_member = True
-#convertiont of string to a float and a string to an int
+#convertiont of string   to a float and a string to an int
 price = float(price_text)
 quantity = int(quantity_text_9)
 subtotal = price * quantity
