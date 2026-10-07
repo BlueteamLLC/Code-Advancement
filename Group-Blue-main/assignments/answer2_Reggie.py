@@ -82,3 +82,41 @@ price =1.5
 quantity = 12
 print(f"{quantity} {item}(s) cost {price * quantity} in total")
 
+
+word = "programming"
+#prediction:
+#first letter = "p"
+#last letter = "g"
+# first three char ="pro"
+#index 3 to end = "gramming"
+#reversed = "gnimmargorp"
+# every second char = "rgamn"
+print(word[0])
+print(word[10])
+print(word[0:3])
+print(word[3:11])
+print(word[::-1])
+print(word[1:11:2])
+
+
+raw_first = "  ada "
+raw_last = " LOVELACE  "
+score_1 = 78
+score_2 = 92
+score_3 = 85
+attendance_percent = 80
+
+first_name = raw_first.strip().title()
+last_name = raw_last.strip().title()
+full_name = f"{first_name} {last_name}"
+average_score = (score_1 + score_2 + score_3) / 3
+passed = average_score >= 60 and attendance_percent >= 75
+initials = first_name[0] + last_name[0]
+username = first_name.lower() + last_name[0:3].lower()
+print("=" * 30)
+print(f"Name: {full_name}")
+print(f"Initials: {initials}")
+print(f"Username: {username}")
+print(f"Average: {average_score}")
+print(f"Passed: {passed}")
+print("=" * 30)
