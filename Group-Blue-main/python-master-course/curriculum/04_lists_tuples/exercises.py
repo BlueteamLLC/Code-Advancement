@@ -42,5 +42,5 @@ print(f"the RGB color palette value of NAVY-BLUE is \n > red = {red}\n > green =
 # Demonstrate the difference between sort() and sorted() on the list below.
 # Print the temporarily sorted version, print the original list to show it hasn't changed,
 # then run sort() and print the list to show the permanent change.
-grades = [88, 72, 95, 60]
+yy
 
