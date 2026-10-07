@@ -39,3 +39,46 @@ print(y <= 19)
 age = 16
 has_ticket = True
 is_vip = False
+# my prediction for can_enter = false
+can_enter = has_ticket and (age == 18 or is_vip)
+print(can_enter)
+
+age = 20 
+can_enter = has_ticket and (age >= 18 or is_vip)
+print(can_enter)
+print(not has_ticket)
+
+
+balance = 100 
+# my prediction for final balance = 240
+balance += 50
+balance -= 30
+balance *= 2
+print(balance)
+
+
+quote = "He said 'python is amazing!'"
+print(quote)
+contraction = "It's not a problem."
+print(contraction) # i used "" because the string contains a single quote and using a single qoute would confuse python on where the string ends.
+print("Good" + " " + "morning" + "!")
+print("-" * 20)
+
+
+messy_name = "  grace HOPPER  "
+print(f"{messy_name}")
+print(messy_name.lstrip())
+print(messy_name.lstrip().rstrip())
+print(messy_name.strip())
+clean_name = messy_name.strip()
+print(clean_name.title())
+print(clean_name.upper())
+print(clean_name.lower())
+print(messy_name)
+# it doesn't change because messy_name the string stored in messy_name didnt change.
+
+item = "pencil"
+price =1.5
+quantity = 12
+print(f"{quantity} {item}(s) cost {price * quantity} in total")
+
